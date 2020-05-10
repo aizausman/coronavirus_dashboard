@@ -1,0 +1,79 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+#wrapper {
+  height: 500px;
+  margin: 0 auto;
+  padding: 0;
+  overflow:visible;
+}
+#container {
+  float: left;
+  width: 100%;
+  height: 500px; 
+  width: 700px; 
+  margin: 0;
+}
+#info {
+  float: left;
+  width: 270px;
+  padding-left: 20px;
+  margin: 100px 0 0 0;
+  border-left: 1px solid silver;
+}
+#info h2 {
+  display: inline;
+  font-size: 13pt;
+}
+#info .f32 .flag {
+  vertical-align: bottom !important;
+}
+
+#info h4 {
+  margin: 1em 0 0 0;
+}
+
+@media screen and (max-width: 4000px) {
+  #wrapper, #container,  #info {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0.5em 0;
+    padding: 0;
+    border: none;
+  }
+}
+
+img {
+  height: 50%;
+}
+
+#news {
+  display: none;
+}
+
+#data-table {
+  display: none;
+}
+
+#heading {
+  display: none;
+}
+
+#country {
+  display: none;
+}
+
+h3 {
+  color: black;
+}
